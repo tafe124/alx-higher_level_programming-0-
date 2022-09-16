@@ -1,5 +1,5 @@
 #!/usr/bin/python3
-max_integer = __import__('6-max_integer').max_integer
+lazy_matrix_mul = __import__('101-lazy_matrix_mul').lazy_matrix_mul
 
-print(max_integer([1, 2, 3, 4]))
-print(max_integer([1, 3, 4, 2]))
+print(lazy_matrix_mul([[1, 2], [3, 4]], [[1, 2], [3, 4]]))
+print(lazy_matrix_mul([[1, 2]], [[3, 4], [5, 6]]))
