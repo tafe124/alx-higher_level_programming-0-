@@ -1,4 +1,3 @@
-
 #!/usr/bin/python3
 """Contains a function that write to file"""
 
